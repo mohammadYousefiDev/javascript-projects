@@ -1,18 +1,7 @@
-function changeBackground() 
+function changeBackgroundColor() 
 {
-  var colors = [
-    'blue',
-    'red',
-    'yellow',
-    'brown',
-    'green',
-    'purple',
-    'lightblue',
-    'aqua',
-    'orange'
-  ];
 
-  const color = colors[Math.floor(Math.random() * colors.length)];
+  const color = document.getElementById('colorPicker').value;
 
   document.body.style.backgroundColor = color;
 }

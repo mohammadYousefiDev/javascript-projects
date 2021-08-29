@@ -9,10 +9,17 @@
   <style>
     button{
       cursor: pointer;
-      height: 40px;
+      height: 39px;
       font-size: 17px;
-      margin-top: 30px;
-      box-shadow: 0 5px 15px #aaa;
+      margin-top: 0px;
+    }
+    input {
+      height: 35px;
+      font-size: 17px;
+      cursor: pointer;
+      position: relative;
+      top: 9px;
+      margin-right: 6px;
     }
     body {
       text-align: center;
@@ -20,6 +27,7 @@
   </style>
 </head>
 <body>
-  <button onclick="changeBackground()">Change Background</button>
+  <input type="color" name="" id="colorPicker">
+  <button onclick="changeBackgroundColor()">Set Background Color to</button>
 </body>
 </html>
