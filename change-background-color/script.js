@@ -14,5 +14,5 @@ function changeBackground()
 
   const color = colors[Math.floor(Math.random() * colors.length)];
 
-  document.querySelector('body').style.backgroundColor = color;
+  document.body.style.backgroundColor = color;
 }
