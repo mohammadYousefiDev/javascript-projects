@@ -15,3 +15,9 @@ function decrease() {
   if(numberBox.innerText == 0)
     numberBox.style.color = '#000';
 }
+
+function reset() {
+  const numberBox = document.getElementById('numberBox');
+  numberBox.innerHTML = 0;
+  numberBox.style.color = '#000';
+}
