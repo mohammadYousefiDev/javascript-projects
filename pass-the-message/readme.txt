@@ -1,3 +1,6 @@
+Demo:
+https://mohammadyousefi.com/javascript-projects/pass-the-message/
+
 We want to pass entered message in message box
 1. Create input text for message
 2. Create a button to click event handling

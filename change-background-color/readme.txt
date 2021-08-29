@@ -1,3 +1,6 @@
+Demo:
+https://mohammadyousefi.com/javascript-projects/change-background-color/
+
 We want to change page background color
 1. create a color input to select background color
 2. create a button to fire change background color method and do it
