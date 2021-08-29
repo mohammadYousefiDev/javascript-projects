@@ -1,5 +1,5 @@
 Demo:
-https://mohammadyousefi.com/javascript-projects/random-qoutes/
+https://mohammadyousefi.com/javascript-projects/random-quotes/
 
 We want to show random qoutes when button is clicked
 1. Create a button for method fireing
