@@ -10,6 +10,10 @@ var i = 0;
 
 $sliderWrapper = document.getElementById('sliderWrapper');
 
+setInterval(function() {
+  goRight();
+}, 5000);
+
 function goRight() {
   if(i>3) i=-1
   sliderWrapper.style.backgroundImage = 'url('+images[++i]+')';
