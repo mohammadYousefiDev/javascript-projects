@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="app.js"></script>
+  <title>Document</title>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    #sliderWrapper {
+      width: 50%;
+      height: 450px;
+      margin: 50px auto 0;
+      background: #ddd;
+      border-radius: 5px;
+      border: 10px solid blueviolet;
+      position: relative;
+      background-image: url('images/slide1.jpeg');
+      background-position: center;
+      background-size: cover;
+      /* transition: .3s; */
+    }
+
+    #rightArrow {
+      right: -25px;
+    }
+
+    #leftArrow {
+      left: -25px;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 200px;
+      background-color: blueviolet;
+      color: #fff;
+      padding: 10px 15px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="sliderWrapper">
+    <button href="" class="arrow" id="rightArrow" onclick="goRight()">></button>
+    <button href="" class="arrow" id="leftArrow" onclick="goLeft()"><</a>
+  </div>
+  </div>
+</body>
+</html>
