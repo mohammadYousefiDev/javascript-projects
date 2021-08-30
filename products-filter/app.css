@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+}
+button{
+  cursor: pointer;
+  height: 39px;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-left: 5px;
+  border: 1px solid #ddd;
+  background: #f3f3f3;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#searchKey {
+  height: 30px;
+  margin-top: 25px;
+  width: 35%;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+#results {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#results article {
+  width: 33%;
+  float: left;
+  
+}
+
+#results article .product {
+  width: 80%;
+  margin:0 auto;
+  background-color: #eee;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-family: tahoma;
+  font-weight: bold;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}

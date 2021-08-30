@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products-filter</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <button class="filter-btn" onclick="filterIt(event, 'all')">All</button>
+  <button class="filter-btn" onclick="filterIt(event, 'cake')">Cakes</button>
+  <button class="filter-btn" onclick="filterIt(event, 'cupcake')">Cupcake</button>
+  <button class="filter-btn" onclick="filterIt(event, 'sweets')">Sweet</button>
+  <button class="filter-btn" onclick="filterIt(event, 'doughnut')">Dougnut</button>
+
+  <div>
+    <input type="text" onkeyup="searchIt()" placeholder="key..." id="searchKey"/>
+  </div>
+
+  <div id="results">
+    
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
