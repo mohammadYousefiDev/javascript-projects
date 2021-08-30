@@ -10,7 +10,7 @@ var i = 0;
 
 $sliderWrapper = document.getElementById('sliderWrapper');
 
-setInterval(function() {
+const interval = setInterval(function() {
   goRight();
 }, 5000);
 

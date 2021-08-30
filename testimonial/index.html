@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="app.js"></script>
+  <title>Document</title>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    #avatar {
+      position: relative;
+      top: -32px;
+      border-radius: 50%;
+      position: absolute;
+      right: 46%;
+    }
+
+    #sliderWrapper {
+      width: 50%;
+      height: 450px;
+      margin: 50px auto 0;
+      /* background: #ddd; */
+      border-radius: 25px;
+      border: 2px solid #ddd;
+      position: relative;
+      background-position: center;
+      background-size: cover;
+      /* transition: .3s; */
+    }
+
+    #rightArrow {
+      right: -60px;
+    }
+
+    #leftArrow {
+      left: -60px;
+    }
+
+    #comment {
+      padding: 15px;
+      font-size: 23px;
+      line-height: 33px;
+    }
+
+    #stars {
+      font-size: 27px;
+      color: sandybrown;
+      margin-top: 9px;
+    }
+
+    h3 {
+      margin-top: 45px;
+      margin-bottom: 0px;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 200px;
+      border: 2px solid #f15025;
+      color: #f15025;
+      padding: 10px 15px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+      outline: none;
+      background-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <div id="sliderWrapper">
+    <img src="images/avatar1.jpg" id="avatar" alt="">
+    <h3 id="username">mohammad</h3>
+    <p id="stars">★★</p>
+    <p id="comment">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don"t look even slightly believable.</p>
+    <p>
+      <svg width="50" fill="#f15025" class="svg-inline--fa fa-quote-left fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="quote-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="f15025" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path></svg>
+    </p>
+    <button href="" class="arrow" id="rightArrow" onclick="goRight()">></button>
+    <button href="" class="arrow" id="leftArrow" onclick="goLeft()"><</a>
+  </div>
+  </div>
+</body>
+</html>
