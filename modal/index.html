@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="app.js"></script>
+  <title>Modal</title>
+  <style>
+    body {
+      text-align: center;
+      /* display:table-cell; 
+      vertical-align:middle; */
+    }
+    button{
+      cursor: pointer;
+      height: 39px;
+      font-size: 17px;
+      margin-top: 0px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    #modal {
+      width: 40%;
+      margin: 0 auto;
+      height: auto;
+      box-shadow: 0 6px 20px #bbb;
+      border-radius: 13px;
+      padding: 27px;
+      font-family: tahoma;
+      display: none;
+      transition: .7s;
+      position: fixed;
+      left: 30%;
+      top: 20%;
+    }
+
+    #modal p {
+      font-size: 24px;
+      line-height: 36px;
+    }
+  </style>
+</head>
+<body>
+  <button onclick="document.getElementById('modal').style.display='block'">Show Modal</button>
+
+  <div id="modal">
+    <p>
+      Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+    </p>
+    <p><button onclick="document.getElementById('modal').style.display='none'">Close</button></p>
+  </div>
+</body>
+</html>
