@@ -131,8 +131,9 @@ function searchIt()
   }
   else {
     products.forEach(el => {
-
-      if(productType!==null)
+      
+      //product type is selected
+      if(productType!==null && productType!=='all')
       {
         if(productType == el.type){
           if(el.title.indexOf(searchKey) > -1){
@@ -144,7 +145,8 @@ function searchIt()
           el.display = 'none';
         }
       }
-      else {
+      else 
+      {
         //product type is not selected
         if(el.title.indexOf(searchKey) > -1){
           el.display = 'block';
@@ -152,27 +154,6 @@ function searchIt()
           el.display = 'none';
         }
       }
-
-      if( productType == el.type ){
-        console.log(123)
-      }else {
-
-      }
-
-      // if ( el.title.indexOf(searchKey) > -1 ){
-        
-        // if(productType!==null && el.type == productType){
-        //   el.display = 'block';
-        // }
-        // else {
-        //   if(productType!=='all' && productType!==null){
-        //     el.display = 'none';
-        //   }
-        // }
-      // }
-      // else {
-      //   // el.display = 'none';
-      // }
     });
   }
   showProduct();
