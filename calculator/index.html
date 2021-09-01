@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal</title>
+  <style>
+    body {
+      text-align: center;
+      /* display:table-cell; 
+      vertical-align:middle; */
+    }
+    button{
+      cursor: pointer;
+      height: 39px;
+      font-size: 17px;
+      margin-top: 0px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+
+    #calWrapper {
+      width: 40%;
+      margin: 0 auto;
+      height: auto;
+      padding: 27px;
+      font-family: tahoma;
+      transition: .7s;
+    }
+
+    #result {
+      text-align: left;
+      background: #000;
+      width: 100%;
+      height: 70px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      line-height: 70px;
+      color: #fff;
+      font-size: 41px;
+      padding-left: 15px;
+    }
+
+    .flex {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .flex>div {
+      flex-grow: 1;
+      width: 25%;
+      padding: 15px;
+      font-size: 22px;
+      font-weight: bold;
+      border: 1px solid #ddd;
+      cursor: pointer;
+    }
+
+    .flex>div:hover {
+      background-color: #eee;
+    }
+
+    .operator {
+      background-color: orange
+    }
+
+    .flex>div.operator:hover {
+      background-color: orangered;
+    }
+  </style>
+</head>
+<body>
+  <div id="calWrapper">
+
+    <div id="result">0</div>
+
+    <div class="flex">
+      <div class="operator back">back</div>
+      <div class="operator clickOn">*</div>
+      <div class="operator clickOn">%</div>
+      <div class="operator clickOn">0</div>
+      
+      <div class="clickOn">7</div>
+      <div class="clickOn">8</div>
+      <div class="clickOn">9</div>
+      <div class="operator clickOn">/</div>
+
+      <div class="clickOn">4</div>
+      <div class="clickOn">5</div>
+      <div class="clickOn">6</div>
+      <div class="operator clickOn">-</div>
+
+      <div class="clickOn">1</div>
+      <div class="clickOn">2</div>
+      <div class="clickOn">3</div>
+      <div class="operator clickOn">+</div>
+
+      <div class="operator clear">C</div>
+      <div class="clickOn">0</div>
+      <div class="clickOn">.</div>
+      <div class="operator equel" >=</div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
