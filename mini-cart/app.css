@@ -1,0 +1,122 @@
+body {
+  text-align: center;
+}
+button{
+  cursor: pointer;
+  height: 39px;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-left: 5px;
+  border: 1px solid #ddd;
+  background: #f3f3f3;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#searchKey {
+  height: 30px;
+  margin-top: 25px;
+  width: 35%;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+#results {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#results article {
+  width: 33%;
+  float: left;
+  
+}
+
+#results article .product {
+  width: 80%;
+  margin:0 auto;
+  background-color: #eee;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  font-size: 16px;
+  font-family: tahoma;
+  font-weight: bold;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.add_to_cart {
+  float: right;
+  margin-right: 20px;
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.pro_title {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#basketBtn {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  background-color: blue;
+  color: #fff;
+  padding: 10px 15px;
+  outline: none;
+}
+
+#mini-cart-wrapper {
+  position: fixed;
+  right: 15px;
+  top: 50px;
+  box-shadow: 0 7px 15px #ddd;
+  width: 200px;
+  padding: 15px;
+  background-color: #fff;
+  display: none;
+}
+
+.mini-cart-option {
+  text-align: left;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.mini-cart-option img {
+  vertical-align: middle;
+  float: left;
+  margin-right: 10px;
+}
+
+.delete_mini_cart {
+  color: red;
+  font-size: 18px;
+  position: absolute;
+  right: 3px;
+  top: 6px;
+  cursor: pointer;
+}
+
+#checkoutBtn {
+  margin-top: 30px;
+  width: 100%;
+  background: rebeccapurple;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
