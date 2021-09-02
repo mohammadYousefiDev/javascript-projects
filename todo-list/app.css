@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+}
+button{
+  cursor: pointer;
+  height: 39px;
+  font-size: 17px;
+  margin-top: 0px;
+}
+#todoBox {
+  font-size: 22px;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 3px 10px #ddd;
+  margin: 0 auto 10px;
+  border: 1px solid #ccc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h3 {
+  text-align: left
+}
+
+#todoWrapper {
+  width: 40%;
+  margin: 25px auto 0;
+  border: 1px solid #ddd;
+  padding: 40px;
+}
+
+#todoWrapper article {
+  text-align: left;
+  font-size: 18px;
+  box-shadow: 0 3px 10px #ddd;
+  overflow: hidden;
+  line-height: 45px;
+  height: auto;
+  padding-left: 18px;
+  border-radius: 30px;
+  padding-right: 13px;
+  margin-bottom: 15px;
+}
+
+#todoWrapper article button {
+  float: right;
+  margin-left: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  outline: none;
+}
+
+.doneBtn {
+  color: green;
+}
+
+.editBtn {
+  color: blue;
+}
+
+.deleteBtn {
+  color: red;
+}
