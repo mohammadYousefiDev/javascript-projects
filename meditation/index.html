@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="app.css">
+  <title>Meditation</title>
+</head>
+<body>
+
+  <div id="wrapper">
+
+    <div id="time-select">
+      <p><button data-time="120">2 minutes</button></p>
+      <p><button data-time="300">5 minutes</button></p>
+      <p><button data-time="600">10 minutes</button></p>
+    </div>
+
+    <div id="player-container">2</div>
+    <div id="sound-picker">
+      <p><img id="rainBtn" src="images/rain.svg" alt=""></p>
+      <audio id="rainSound">
+        <source src="sounds/rain.mp3">
+      </audio>
+
+      <video id="rainVideo">
+        <source src="videos/rain.mp4" type="video/mp4">
+      </video>
+
+      <p><img id="beachBtn" src="images/beach.svg" alt=""></p>
+      <audio id="beachSound">
+        <source src="sounds/beach.mp3">
+      </audio>
+
+      <video id="beachVideo">
+        <source src="videos/beach.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
